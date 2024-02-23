@@ -14,7 +14,8 @@ namespace MathGamer
             bool playAgain = true;
             while (playAgain)
             {
-                Console.WriteLine("----------------------------------------------");
+                Console.WriteLine(Figgle.FiggleFonts.Ogre.Render("Math Game"));
+                Console.WriteLine("----------------------------------------------------");
                 Console.WriteLine($"Hello, {name}, it's {DateTime.Now}");
                 Console.WriteLine();
                 Console.WriteLine($@"What game would you like to play today?
@@ -24,9 +25,10 @@ M - Multiplication
 D - Division
 V - View History
 Q - Quit");
-                Console.WriteLine("----------------------------------------------");
+                Console.WriteLine("----------------------------------------------------");
 
                 string operation = (Console.ReadLine().ToLower());
+                Console.Clear();
 
                 while (operation != "a" && operation != "s"&& operation != "m" && operation !="d" && operation != "v")
                 {
@@ -37,15 +39,19 @@ Q - Quit");
                 switch (char.Parse(operation.Trim()))
                 {
                     case 'a':
+                        Console.WriteLine(Figgle.FiggleFonts.Ogre.Render("Addition"));
                         logic.AdditionGame("Addition game selected");
                         break;
                     case 's':
+                        Console.WriteLine(Figgle.FiggleFonts.Ogre.Render("Subtraction"));
                         logic.SubtractionGame("Subtraction game selected");
                         break;
                     case 'm':
+                        Console.WriteLine(Figgle.FiggleFonts.Ogre.Render("Multiplication"));
                         logic.MultiplicationGame("Multiplication game selected");
                         break;
                     case 'd':
+                        Console.WriteLine(Figgle.FiggleFonts.Ogre.Render("Division"));
                         logic.DivisionGame("Division game selected");
                         break;
                     case 'q':

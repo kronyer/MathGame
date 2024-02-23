@@ -79,6 +79,7 @@ namespace MathGamer
                 Console.WriteLine("Your name can't be empty");
                 name = Console.ReadLine();
             }
+            Console.Clear();
             return name;
         }
 
