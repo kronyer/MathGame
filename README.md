@@ -28,7 +28,6 @@
 <ul>
   <li>Better notion of architecture</li>
   <li>Pratice more Clean Code</li>
-  <li></li>
 </ul>
 <h2>To Do on this project</h2>
 <ul>
