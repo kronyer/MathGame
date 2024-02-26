@@ -7,11 +7,6 @@ namespace MathGamer
 {
     internal class GameLogic
     {
-        public void EndlessGame()
-        {
-            
-
-        }
         public void AdditionGame(string message)
         {
             int score = 0;

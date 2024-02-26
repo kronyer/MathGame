@@ -50,7 +50,7 @@ internal class Menu
 
             if (selectedIndex != 4)
             {
-                Console.WriteLine("Press ENTER key to play again:");
+                Console.WriteLine("Press ENTER key to go back");
                 ConsoleKeyInfo pAKey = Console.ReadKey(true);
                 ConsoleKey kPressed = pAKey.Key;
                 
