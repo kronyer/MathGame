@@ -1,6 +1,6 @@
 <h1>Math Game</h1>
 <p>A basic c# project</p>
-<p>Adventure-Like keyboard arrow controlled</p>
+<p>Adventure-Like menu (keyboard arrows controlled)</p>
 <img src="https://github.com/kronyer/MathGame/assets/152650887/ff3f96fc-53d6-4b96-9312-86f6cd04b78d" width="400px">
 
 <h2>Features</h2>
